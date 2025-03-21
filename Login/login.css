@@ -19,6 +19,13 @@
 
 } */
 
+.page-container {
+
+   display: flex;
+
+
+}
+
 h1 {
 
    font-size: 76px;
@@ -61,6 +68,7 @@ flex-direction: column; /*horizontal*/
 align-items: center; /*horizontal*/
 justify-content: center;
 height: 100vh;
+width: 50vw;
 
 }
 
@@ -69,3 +77,14 @@ height: 100vh;
    height: 60px;
 
 }
+
+.robo-image { 
+
+   background-image: url("../.vscode/assets/imgs/robo-image.jpg");
+   background-size: cover;
+   /* background-size: contain; */
+   /* background-repeat: no-repeat; */
+   width: 50vw;
+   height: 100vh;
+}
+
