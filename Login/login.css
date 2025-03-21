@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+* {
+
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+
+}
 /* .titulo {
 
  font size: 76px;
@@ -14,9 +21,51 @@
 
 h1 {
 
- font-size: 76px;   
- font-family: "inter";   
+   font-size: 76px;
+   font-family: "inter";
+   font-weight: normal;
+   margin-bottom: 16px;
 
 }
 
+.inpt {
+   border-radius: 10px;
+   padding: 18px;
+   /* Espacemento interno */
+   border: none;
+   /* Remove a Borda */
+   background-color: #f7f9fb;
+   /* Define a cor de fundo */
+   width: 377px;
+   margin-bottom: 16px;
+}
+
 /* <h1 class="titulo">Login</h1> */
+
+.botao-entrar {
+
+   background-color: #1C1C1C;
+   color: white;
+   border: none; /* Altura */
+   border-radius: 10px;
+   padding: 18px;
+   width: 377px; /* largura */
+   margin-top: 5px;
+
+}
+
+.login-container {
+
+display: flex; /*deixa em colunas*/
+flex-direction: column; /*horizontal*/
+align-items: center; /*horizontal*/
+justify-content: center;
+height: 100vh;
+
+}
+
+.logo {
+
+   height: 60px;
+
+}
